@@ -4,3 +4,5 @@ if(num%2==0):
 else:
     a=num//2
     print(a-num)
+
+#Nikhil Parekh
