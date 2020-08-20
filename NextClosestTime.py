@@ -1,14 +1,6 @@
-s = "11:59"
-s = s[:2]+s[3:]
-temp = []
-temp = sorted(s)
-print(temp)
+def fact(n):
+    if(n==1):
+        return n
+    return n*fact(n-1)
 
-for i in temp:
-    x = s[:3]
-    x+=i
-    if(x>s):
-        print(x)
-        break
-
-    
+print(fact(3))
